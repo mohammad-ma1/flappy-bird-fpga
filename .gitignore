@@ -1,0 +1,31 @@
+# Quartus build output
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.qws
+*.qarlog
+*.qar
+*.rpt
+*.summary
+*.smsg
+*.done
+*.sof
+*.pof
+*.sld
+*.stp
+.qsys_edit/
+
+# simulation output
+sim/out/
+
+# course files (Lab1Demo) - not part of this repository
+RTL/VGA/
+RTL/KEYBOARDX/
+RTL/AUDIO/
+RTL/Seg7/
+CLK_31P5*
+*.qxp
+*.QXP
+constraints/pin.tcl
